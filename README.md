@@ -22,5 +22,5 @@
 
 #docker-compose up
 
-#Output will then be displayed on network statistics
+#Output?
 #To quit, Either crtl C in the terminal where your running the code or click the stop button in docker desktop
