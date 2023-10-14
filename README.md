@@ -1,6 +1,7 @@
 # 327-project-1
 #To run this project you will need docker installed as well as the latest version of python
 #To start you need to navigate to the project directory and cd into each image folder and build the respective image with commands:
+
 #cd broadcast-receiver
 #docker build -t broadcast-receiver-image .
 #cd broadcast-sender
