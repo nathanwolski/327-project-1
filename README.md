@@ -22,5 +22,5 @@
 
 #docker-compose up
 
-#Output?
+#Our logging function for the required output kept running into bugs, but the network deploys just fine, our python logging function executes but it not able to get any statistics
 #To quit, Either crtl C in the terminal where your running the code or click the stop button in docker desktop
