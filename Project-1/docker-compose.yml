@@ -1,0 +1,42 @@
+version: '3'
+services:
+  server1:
+    image: nginx:latest
+    ports:
+      - "8081:80"
+    networks:
+      - mynetwork
+
+  server2:
+    image: nginx:latest
+    ports:
+      - "8082:80"
+    networks:
+      - mynetwork
+
+  server3:
+    image: nginx:latest
+    ports:
+      - "8083:80"
+    networks:
+      - mynetwork
+
+  server4:
+    image: nginx:latest
+    ports:
+      - "8084:80"
+      - "5000:5000"
+    networks:
+      - mynetwork
+
+  server5:
+    image: nginx:latest
+    ports:
+      - "8085:80"
+      - "5001:5000"  
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
